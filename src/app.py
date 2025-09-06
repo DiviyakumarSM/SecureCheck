@@ -131,7 +131,7 @@ if __name__ == "__main__":
             st.plotly_chart(fig, use_container_width=True)
 
         with col2:
-            st.header("Stops by Country")
+            st.header("Stops by Violation")
             violation_wise_data = get_bar_chart()
             fig = px.bar(
                 data_frame=violation_wise_data,

@@ -9,3 +9,9 @@
     Ran "pip freeze > requirement.txt" to collect installed packages and version for better shipment
 
 # How to Run this Project
+
+    Run "pip install -r requirements.txt"
+
+    Copy "app.py" file path
+
+    Run "streamlit run <PATH/app.py>"
